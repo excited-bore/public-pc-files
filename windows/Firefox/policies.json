@@ -1,0 +1,81 @@
+{
+  "policies":  {   
+  "BlockAboutAddons": true, 
+  "BlockAboutConfig": true, 
+  "BlockAboutProfiles": true,
+  "BlockAboutSupport": true,
+  "AutofillCreditCardEnabled": false,
+  "Homepage": {
+      "URL": " https://www.duckduckgo.com/",
+      "Locked": true,
+      "StartPage": "homepage-locked"
+    }, 
+    "SearchEngines": {
+      "Default": "DuckDuckGo",
+      "Remove": ["Bing", "eBay", "Perplexity", "Qwant"] 
+    }, 
+    "DontCheckDefaultBrowser": true,
+    "GenerativeAI": {
+      "Enabled": false,
+      "Chatbot": false,
+      "LinkPreviews": false,
+      "TabGroups": false,
+      "Locked": true
+    },
+    "TranslateEnabled": false,
+    "PrintingEnabled": false,
+    "DisableFormHistory": true,
+    "HttpsOnlyMode": "force_enabled",
+    "EnableTrackingProtection": {
+      "Value": true,
+      "Locked": true,
+      "Cryptomining": true,
+      "Fingerprinting": true,
+      "EmailTracking": true,
+      "SuspectedFingerprinting": true,
+      "Category": "strict",
+      "BaselineExceptions": true,
+      "ConvenienceExceptions": true
+    },
+    "DisableFirefoxAccounts": true,
+    "DisableTelemetry": true,
+    "DisableFirefoxStudies": true,
+    "ExtensionSettings": {
+      "*": {
+        "allowed_types": "theme",
+	"blocked_install_message": "Installatie van extensies is verboden, maar het installeren van firefox themas gaat wel."
+      },
+      "uBlock0@raymondhill.net": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
+	"default_area": "navbar",
+	"updates_disabled": false,
+	"private_browsing": true
+      },
+      "jid1-ZAdIEUB7XOzOJw@jetpack": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/file/4663303/duckduckgo_for_firefox-2026.1.12.xpi",
+	"default_area": "navbar",
+	"updates_disabled": false
+      },
+      "belgiumeid@eid.belgium.be": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/file/3736679/belgium_eid-1.0.32.xpi",
+	"default_area": "navbar",
+	"updates_disabled": false
+      },
+      "{762f9885-5a13-4abd-9c77-433dcd38b8fd}": { 
+      	"installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/file/4371820/return_youtube_dislikes-3.0.0.18.xpi",
+	"updates_disabled": false
+      },
+      "@contain-facebook": {
+      	"installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/file/4451874/facebook_container-2.3.12.xpi",
+	"default_area": "navbar",
+	"updates_disabled": false
+      }
+    },
+    "ExtensionUpdate": true
+  }
+}
