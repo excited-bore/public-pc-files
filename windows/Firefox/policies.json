@@ -22,6 +22,7 @@
       "TabGroups": false,
       "Locked": true
     },
+    "DisplayBookmarksToolbar": "always", 
     "TranslateEnabled": false,
     "PrintingEnabled": false,
     "DisableFormHistory": true,
@@ -37,6 +38,7 @@
       "BaselineExceptions": true,
       "ConvenienceExceptions": true
     },
+    "DisableProfileImport": true, 
     "DisableFirefoxAccounts": true,
     "DisableTelemetry": true,
     "DisableFirefoxStudies": true,
